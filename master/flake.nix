@@ -11,7 +11,6 @@
   inputs.src-niminst-master.ref   = "refs/heads/master";
   inputs.src-niminst-master.owner = "nim-lang";
   inputs.src-niminst-master.repo  = "niminst";
-  inputs.src-niminst-master.dir   = "";
   inputs.src-niminst-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
